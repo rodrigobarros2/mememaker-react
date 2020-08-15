@@ -116,7 +116,7 @@ export default function Home() {
 										))}
 
 									<S.Button type="submit">
-										MakeMyMeme!
+										Criar Meme
 									</S.Button>
 								</S.Form>
 							</>
