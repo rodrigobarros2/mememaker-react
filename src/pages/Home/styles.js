@@ -15,7 +15,7 @@ export const Card = styled.div`
 	border-radius: 8px;
 	padding: 20px;
 	margin-top: 15px;
-	box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 
 	> h2 {
 		font-size: 22px;
@@ -51,11 +51,11 @@ export const Templates = styled.div`
 	}
 `;
 
-export const Form = styled.div`
+export const Form = styled.form`
 	input {
 		width: 100%;
 		height: 40px;
-		border-radius: 9px;
+		border-radius: 8px;
 		border: 1px solid #dbdbdb;
 		padding: 0 15px;
 		font-size: 14px;
